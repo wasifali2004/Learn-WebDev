@@ -1,0 +1,74 @@
+h1{
+    color: red;
+    text-align: center;
+    font-weight: 900;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+#t {
+    text-align: center;
+    color: brown;
+}
+
+#login {
+    color: white;
+    background-color: red;
+}
+
+#signup{
+    color: white;
+    background-color: red;
+}
+
+.follow{
+    color: blue;
+}
+
+p{
+    color: green;
+    background-color: moccasin;
+    text-decoration: black underline;
+    text-align: center;
+}
+
+nav ul li, a{
+    color: brown;
+}
+
+button{
+    color: black;
+    background-color: yellow;
+}
+
+button:hover{
+    color: blue;
+    background-color: antiquewhite;
+}
+
+button:active {
+    background-color: whitesmoke;
+}
+
+
+input[type="radio"]:checked+label{
+    color: indigo;
+    font-weight: bold;
+}
+
+div:nth-of-type(2n) {
+    background-color: aqua;
+}
+
+
+h1::first-letter{
+    color: burlywood;
+}
+
+p::first-line{
+    background-color:pink;
+}
+
+h3:selection(2) {
+    background-color: blue;
+}

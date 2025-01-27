@@ -1,0 +1,103 @@
+.link {
+    width: 100%;
+    font-family: Arial, sans-serif;
+    height: 90px;
+    background-color: bisque;
+    color: rgb(45, 51, 45);
+    text-align: center;
+    border: 2px solid transparent;
+    box-shadow: 10px 0px 20px black;
+    animation: heading 3s ease-in 0s forwards;
+}
+
+@keyframes heading {
+    0% {
+        font-size: 3px;
+        color: blueviolet;
+    }
+    50% {
+        font-size: 10px;
+        color: yellow;
+    }
+    100% {
+        font-size: 20px;
+        color: black; /* Updated to color as 'black' instead of using counter-reset */
+    }
+}
+
+.pa h2 {
+    margin-top: 30px;
+    height: 30px;
+    width: 100%;
+    border: 2px solid aqua;
+    text-align: center;
+    font-size: 16px; /* Fixed font-size to a valid value */
+    font-weight: 800;
+    background-color: black;
+    color: antiquewhite;
+    box-shadow: 0px 0px 20px blue;
+}
+
+.pa h2 span {
+    color: yellow;
+}
+
+.pets {
+    margin-top: 90px;
+    width: 100%;
+    height: 600px;
+    background-color: antiquewhite;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap; /* Ensures wrapping on smaller screens */
+}
+
+.cat, .dog {
+    width: 30%;
+    height: 400px;
+    border: 2px solid black;
+    font-size: 15px;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px; /* Added margin for spacing */
+}
+
+.cat p, .dog p {
+    padding: 101x;
+}
+
+img {
+    width: 90%;
+    height: 200px;
+    background-size: cover;
+    border-radius: 20px;
+    margin: 10px 7px 0px 7px;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(45, 51, 45);
+    font-weight: 700;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .cat, .dog {
+        width: 45%; /* Adjusted width for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .pets {
+        height: 1000px;
+        width: 100%;
+    }
+    .cat, .dog {
+        width: 90%; /* Full width for very small screens */
+        margin: 20px;
+    }
+}
