@@ -6,7 +6,7 @@ Welcome to my Web Development Portfolio! This repository showcases some of the w
 I am a passionate web developer specializing in building responsive and user-friendly websites. I have experience with various technologies, including HTML, CSS, JavaScript, and backend frameworks.
 
 🛠️ Tech Stack
-Front-end: HTML, CSS, JavaScript, React, Tailwind CSS
+Front-end: HTML, CSS, JavaScript, React, Tailwind CSS.
 
 📬 Contact
 Feel free to reach out if you have any questions or collaboration opportunities!
